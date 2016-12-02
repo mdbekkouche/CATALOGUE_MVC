@@ -1,1 +1,13 @@
-Bonjour !
+Un exemple d'application web JEE qui respecte le pattern MVC avec une couche métier qui effectue le mapping objet relationnel JDBC.
+
+ L'application comporte de deux couches :
+1) La couche Métier qui contient : 
+   - Une entité :Produit 
+   - Une interface 
+   - Un singleton Connection 
+   - Une implémentation de l'interface 
+   - Une classe pour Tester cette implémentation
+2) La couche Web qui contient : 
+   - Un modèle - Un contrôleur : Servlet 
+   - Une vue JSP 
+   - Une feuille de style CSS

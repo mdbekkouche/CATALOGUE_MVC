@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>CAT_MVC</display-name>
+ 
+  <servlet>
+  	<servlet-name>cs</servlet-name>
+  	<servlet-class>web.ControleurServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>cs</servlet-name>
+  	<url-pattern>/controleur</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>cs</servlet-name>
+  	<url-pattern>*.php</url-pattern>
+  </servlet-mapping>
+  <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <include-prelude>/WEB-INF/taglibs.jsp</include-prelude>
+        </jsp-property-group>
+    </jsp-config>
+</web-app>
