@@ -11,3 +11,14 @@ Un exemple d'application web JEE qui respecte le pattern MVC avec une couche mé
    - Un modèle - Un contrôleur : Servlet 
    - Une vue JSP 
    - Une feuille de style CSS
+
+Les concepts suivants sont abordés dans ce projet : 
+   - Créer une base de données mysql 
+   - Effectuer le mapping objet relationnel avec JDBC 
+   - Créer un pattern Singleton - Utiliser le pilote JDBC 
+   - Respecter le pattern MVC 
+   - Créer une servlet 
+   - Déployer une servlet :web.xml ou annotations 
+   - Créer une JSP en utilisant JSTL 
+   - Créer une feuille de style CSS 
+   - Ecrire un petit code en javascript
